@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--The title of my game is Tic Tac Toe-->
+    <title>Tic Tac Toe</title>
+    <!-- This is the link to my CSS-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- This is the link to the google font that I used for the title-->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+      
+        <!-- I used class in the H1, div, H2, and button in order to style them within CSS-->
+        <h1 class="game--title">Tic Tac Toe</h1>
+
+        <hr>
+
+        <div id="alert-winner" class="alert alert-primary" role="alert"></div>
+
+        <!-- The div is used into order to create the squares in the game board, there are nine squares-->
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Restart Game</button>
+    </section>
+    <!-- This is the link to my Javascript-->
+    <script src="index.js"></script>
+</body>
+</html>
+
+
